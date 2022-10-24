@@ -1,0 +1,150 @@
+body {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 45vh 45vh;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+#center {
+    grid-column-start: 1;
+    grid-row-start:  2;
+}
+
+#bottom {
+    grid-column-start: 1;
+    grid-row-start:  3;
+}
+
+div {
+    margin: 0.2em;
+    text-align: center;
+}
+
+.speaker {
+    background-color: darkgray;
+    width: 10em;
+    height: 19em;
+
+}
+
+.key {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 3em;
+    height: 3em;
+    border-radius: 0.3em;
+    text-align: center;
+}
+
+.cmd {
+    width: 4em;
+}
+
+.arrow {
+    height: 1.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tab {
+    width: 4.75em;
+}
+
+#capsLock {
+    width: 5.5em;
+}
+
+#leftShift{
+    width: 4em;   
+}
+
+#rightShift{
+    width: 7em;   
+}
+
+#backspace {
+    width: 4.8em;
+}
+
+#bottomEnter{
+    width: 2.2em;
+}
+
+#spacebar {
+    width: 16.8em;
+}
+
+.arrowContainer {
+    display: grid;
+    grid-template-columns: 3.2em 3.2em 3.2em;
+    width: 10em;
+    margin: 0;
+}
+
+#left {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-top: 0;
+}
+#right {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    margin-top: 0;
+}
+#up {
+    margin-bottom: 0;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#down {
+    margin-top: 0;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.keyboard {
+    background-color: grey;
+    width: 50em;
+    height: 20em;
+    display: flex;
+    flex-direction: vertical;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.trackpad {
+    border-width: 1em;
+    width: 40em;
+    height: 25em;
+    border-color: darkslategray;
+    background-color: darkgray;
+    border-radius: 1em;
+}
+
+.fbar {
+    height: 2em;
+    width: 43.2em;
+}
+
+#esc {
+    width: 3em;
+}
+#touch {
+    width: 2em;;
+}
